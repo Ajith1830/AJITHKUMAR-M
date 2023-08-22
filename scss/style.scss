@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5,
 	}
 
 	.navbar-brand {
-		color: $white;
+		color: yellow;
 		width: 5px;
 		height: 5px;
 		padding-top: .7rem;
@@ -102,7 +102,7 @@ h1, h2, h3, h4, h5,
 		@include media-breakpoint-down(md){
 			color: $white;
 		}
-	}
+	
 	
 	.navbar-nav {
 		@include media-breakpoint-down(md){
@@ -331,7 +331,12 @@ h1, h2, h3, h4, h5,
 	font-size: 24px;
 	text-transform: uppercase;
 }
-
+.oi oi-menu{
+	text-align: end;
+}
+p{
+	text-align: center;
+}
 
 .hero{
 	h3.vr{
